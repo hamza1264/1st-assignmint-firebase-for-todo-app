@@ -1,28 +1,37 @@
  #main-section {
      width: 1200px;
-     /* height: 700px; */
-     border: 2px solid black;
-     margin: 20px auto;
+     height: 700px;
+     margin: 100px auto;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ }
 
+ #main-div {
+     width: 1000px;
+     margin: 40px auto;
+     /* border: 2px solid black; */
+     padding: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 60px;
  }
 
  h1 {
-     border: 2px solid black;
+     /* border: 2px solid black; */
      text-align: center;
+     color: #007BFF;
+     font-size: 50px;
  }
 
  #input-site {
-     width: 500px;
-     height: 200px;
-     display: inline-block;
-     margin: 10px 30px 10px 60px;
+     width: 400px;
+     height: 220px;
      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
  }
 
  #todoInput {
      font-size: 30px;
-     margin: 30px 20px 30px 60px;
+     margin: 30px 20px 30px 10px;
      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
      box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
  }
@@ -35,7 +44,8 @@
      font-size: 1.3em;
      border: none;
      border-radius: 10px;
-     background-color: #007BFF;
+     text-transform: uppercase;
+     background-color: #28a745;
      color: white;
      cursor: pointer;
  }
@@ -43,16 +53,23 @@
  #ul-site {
      width: 500px;
      height: 500px;
-     display: inline-block;
-     margin: 20px 40px 10px 30px;
      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
 
- #todoList{
-    font-size: 30px;
+ #todoList {
+     font-size: 30px;
  }
 
-.deleteBtn, .editBtn{
-    font-size: 25px;
-    margin: 10px 30px 10px 30px;
-}
+ .deleteBtn {
+     font-size: 25px;
+     margin: 0px 0px 0px 0px;
+     background-color: #dc3545;
+     color: white;
+ }
+
+ .editBtn {
+     font-size: 25px;
+     margin: 0px 0px 0px 200px;
+     background-color: #ffc107;
+     color: white;
+ }
